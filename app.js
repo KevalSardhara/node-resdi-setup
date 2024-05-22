@@ -49,7 +49,7 @@ const { clint } = require('./client.js');
 app.get('/', async function (req, res, next) {
 
   try {
-    console.log("Redis Loading data...");
+    console.log("Redis DB Loading data...");
     let redisData = await clint.get("jsonplaceholder:data:api:1");
     
     if(redisData) {
