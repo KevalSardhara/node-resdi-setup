@@ -73,7 +73,7 @@ app.get('/', async function (req, res, next) {
     //   {}
     // ]);
     
-    console.log("add data");
+    console.log("add data IT1");
     
     return res.status(200).json({
       status: true,
