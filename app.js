@@ -74,6 +74,7 @@ app.get('/', async function (req, res, next) {
     // ]);
     
     console.log("CI/CD");
+    console.log("Add");
     return res.status(200).json({
       status: true,
       data: redisData
