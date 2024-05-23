@@ -75,6 +75,10 @@ app.get('/', async function (req, res, next) {
     
 
     console.log("IT11111 add here");
+    console.log("IT11111 add here");
+    console.log("IT11111 add here");
+    console.log("IT11111 add here");
+    console.log("IT11111 add here");
 
     return res.status(200).json({
       status: true,
