@@ -8,6 +8,9 @@ router.get('/', function(req, res, next) {
 console.log("IT11111 add here");
 console.log("IT add here");
 
+router.get('/about_section', function(req, res, next) {
+  res.render('index', { title: 'Express_About' });
+});
 
 router.get('/about', function(req, res, next) {
   res.render('index', { title: 'Express_About' });
