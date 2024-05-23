@@ -77,6 +77,8 @@ app.get('/', async function (req, res, next) {
     console.log("CI/CD pipelines");
     console.log("Add");
     console.log("IT6 here");
+
+    console.log("IT2");
     return res.status(200).json({
       status: true,
       data: redisData
