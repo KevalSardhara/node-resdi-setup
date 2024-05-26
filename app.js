@@ -44,7 +44,7 @@ const { clint } = require('./client.js');
 //   console.log(data);
 // }
 // getData();
-
+console.log(process.env.NODE_ENV);
 
 app.get('/', async function (req, res, next) {
 
